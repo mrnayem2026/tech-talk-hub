@@ -5,6 +5,7 @@ import instagram from './../../../public/instagram.png'
 import tiktok from './../../../public/tiktok.png'
 import youtube from './../../../public/youtube.png'
 import Link from 'next/link'
+import ThemeToggle from '../themeToggle/ThemeToggle'
 
 const Navbar = () => {
   return (
@@ -17,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className={styles.logo}>TechTalk Hub</div>
       <div className={styles.links}>
-          {/* <ThemeToogle/> */}
+          <ThemeToggle/>
           <Link href="/" className={styles.link}>Home</Link>
           <Link href="/" className={styles.link}>Contack</Link>
           <Link href="/" className={styles.link}>About</Link>
