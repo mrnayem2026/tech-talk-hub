@@ -6,6 +6,7 @@ import tiktok from './../../../public/tiktok.png'
 import youtube from './../../../public/youtube.png'
 import Link from 'next/link'
 import ThemeToggle from '../themeToggle/ThemeToggle'
+import AuthLinks from '../authLinks/AuthLinks'
 
 const Navbar = () => {
   return (
@@ -22,6 +23,7 @@ const Navbar = () => {
           <Link href="/" className={styles.link}>Home</Link>
           <Link href="/" className={styles.link}>Contack</Link>
           <Link href="/" className={styles.link}>About</Link>
+          <AuthLinks/>
       </div>
     </main>
   )
