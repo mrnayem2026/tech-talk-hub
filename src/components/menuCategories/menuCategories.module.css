@@ -1,0 +1,37 @@
+.categoryList {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.categoryItem {
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.categoryItem.coding {
+  background-color: #57c4ff31;
+}
+
+.categoryItem.creativity {
+  background-color: #da85c731;
+}
+
+.categoryItem.techStartups {
+  background-color: #7fb88133;
+}
+
+.categoryItem.marketing {
+  background-color: #ff795736;
+}
+
+.categoryItem.saas {
+  background-color: #ffb04f45;
+}
+
+.categoryItem.technology {
+  background-color: #5e4fff31;
+}
